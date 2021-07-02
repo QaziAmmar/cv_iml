@@ -3,9 +3,9 @@ import setuptools
 with open("README.md", "r") as fh:
     long_description = fh.read()
 
-VERSION = '0.0.1'
+VERSION = '0.0.2'
 DESCRIPTION = 'IML Computer Vision Library'
-LONG_DESCRIPTION = 'cv_iml is a software library written for the IML Lab to reduce the code redundancy.'
+LONG_DESCRIPTION = 'cv_iml is a software library written for the IML Lab to reduce the cv_iml redundancy.'
 
 # Setting up
 setuptools.setup(
@@ -28,3 +28,9 @@ setuptools.setup(
         "Operating System :: Microsoft :: Windows",
     ]
 )
+
+# For generating the whl file.
+# python3.9 setup.py sdist bdist_wheel
+# For uploading the file on python page
+# twine upload dist/*
+

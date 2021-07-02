@@ -302,7 +302,7 @@ def ROC_curve_binary(actual_labels, basic_cnn_pred_score, pos_label="malaria"):
     plt.show()
 
 
-# color_constancy code Start.
+# color_constancy cv_iml Start.
 # Version 1.0
 # This is a simple color balancing algorithm that balance color in the image.
 # Link: https://gist.github.com/DavidYKay/9dad6c4ab0d8d7dbf3dc
@@ -346,7 +346,7 @@ def color_constancy(img, percent=1):
     return cv2.merge(out_channels)
 
 
-# color_constancy code End.
+# color_constancy cv_iml End.
 
 def hist_of_label_count(dataList):
     """
